@@ -1,0 +1,18 @@
+name: CarrotPlugin
+version: 1.0
+main: CarrotPlugin.CarrotPlugin
+api-version: 1.17
+depend: [ Vault, Citizens ]
+commands:
+  carrots:
+    description: For all things carrot related!
+  discord:
+    description: Join our discord!
+  verifydiscord:
+    description: Link your discord account!
+  gui:
+    description: Donator GUI!
+    permission: carrotcraft.donor
+  donate:
+    aliases: [ shop, store ]
+    description: Donate to CarrotCraft!
